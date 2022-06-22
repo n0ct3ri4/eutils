@@ -1,14 +1,14 @@
 {
-  "name": "eutils",
+  "name": "@n0ct3ri4/eutils",
   "description": "Gestionnaire d'environnements d'exécution semi-confiné.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
   "bin": {
     "echo-install": "bin/install.js",
     "echo-load": "bin/load.js"
   },
   "scripts": {
-    "postinstall": "mkdir /.eutils/systems"
+    "postinstall": "mkdir \"/.eutils/systems\""
   },
   "keywords": [
     "node",
@@ -19,9 +19,10 @@
     "sandbox",
     "utils"
   ],
-  "author": "L'Ange Déchu",
+  "author": "n0ct3ri4",
   "license": "GPL-3.0",
   "dependencies": {
     "unzipper": "^0.10.11"
-  }
+  },
+  "devDependencies": {}
 }
