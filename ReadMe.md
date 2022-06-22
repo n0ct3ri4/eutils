@@ -22,7 +22,7 @@ echo-install <nom-de-l-utilitaire>
 
 > Vous pouvez mettre des virgules après le nom d'un utilitaire pour en télécharger plusieurs en même temps.
 
-Quant aux utilitaires créés par la communauté, il suffira de mettre les fichiers dans le dossier `.eutils` à la racine du disque.
+Quant aux utilitaires créés par la communauté, il suffira de mettre les fichiers dans le dossier `.eutils/systems` à la racine du disque.
 
 - Windows : `C:\.eutils\systems\`
 
