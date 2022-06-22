@@ -1,5 +1,5 @@
 {
-  "name": "echo-utils",
+  "name": "eutils",
   "description": "Gestionnaire d'environnements d'exécution semi-confiné.",
   "version": "1.0.0",
   "main": "index.js",
