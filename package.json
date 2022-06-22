@@ -1,14 +1,14 @@
 {
   "name": "@n0ct3ri4/eutils",
   "description": "Gestionnaire d'environnements d'exécution semi-confiné.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "bin": {
     "echo-install": "bin/install.js",
     "echo-load": "bin/load.js"
   },
   "scripts": {
-    "postinstall": "scripts/setup.js"
+    "postinstall": "node ./scripts/setup.js"
   },
   "keywords": [
     "node",
