@@ -7,7 +7,7 @@ Le concept est simple. Vous avez des petits systèmes créés par la communauté
 Tout d'abord, vous pouvez télécharger le CLI à l'aide de cette commande :
 
 ```sh
-npm i -g eutils
+npm i -g @n0ct3ri4/eutils
 ```
 
 Allez ensuite voir dans vos documents. Oh ! Un nouveau dossier ! Dans ce dernier, vous pourrez stocker vos utilitaires.
