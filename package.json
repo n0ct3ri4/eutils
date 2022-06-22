@@ -7,6 +7,9 @@
     "echo-install": "bin/install.js",
     "echo-load": "bin/load.js"
   },
+  "scripts": {
+    "postinstall": "mkdir /.eos/utils"
+  },
   "keywords": [
     "node",
     "js",

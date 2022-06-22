@@ -21,7 +21,7 @@ const https = require("node:https");
 const unzipper = require("unzipper");
 const args = process.argv;
 
-var utilsPath = path.join(os.homedir(), "Documents", ".echo-utils"); // path to utils
+var utilsPath = path.join("\\.eos", "utils"); // path to utils
 var debug = false; // debug mode. setting this to `true` allows you to view extra logs
 
 // if path to utils doesn't exists
