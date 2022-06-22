@@ -1,0 +1,7 @@
+# Ignore node modules and vscode configurations
+node_modules/
+.vscode/
+
+# Ignore dotfiles except .gitignore
+.* 
+!.gitignore 

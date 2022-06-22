@@ -1,0 +1,24 @@
+{
+  "name": "echo-os",
+  "description": "Gestionnaire d'environnements d'exécution semi-confiné.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "echo-install": "bin/install.js",
+    "echo-load": "bin/load.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "echo",
+    "os",
+    "env",
+    "sandbox",
+    "utils"
+  ],
+  "author": "L'Ange Déchu",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  }
+}
