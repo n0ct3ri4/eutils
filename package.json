@@ -1,5 +1,5 @@
 {
-  "name": "echo-os",
+  "name": "echo-utils",
   "description": "Gestionnaire d'environnements d'exécution semi-confiné.",
   "version": "1.0.0",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "echo-load": "bin/load.js"
   },
   "scripts": {
-    "postinstall": "mkdir /.eos/utils"
+    "postinstall": "mkdir /.eutils/systems"
   },
   "keywords": [
     "node",

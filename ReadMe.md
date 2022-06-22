@@ -1,17 +1,13 @@
-# Echo OS
+# Echo Utils
 
-## Attention !
+Le concept est simple. Vous avez des petits systèmes créés par la communauté (ou par nous :p) qui s'apparentent à des utilitaires, et qui s'exécutent à l'aide d'Eutils.
 
-Soyons clair•e•s, Echo OS n'est pas un système d'exploitation. C'est un gestionnaire d'environnements d'exécution semi-confiné.
-
-Entre autres, vous avez des petits systèmes créés par la communauté (ou par nous :p) qui s'apparente à des utilitaires, et qui s'exécutent à l'aide d'EOS.
-
-## Mettre en place EOS.
+## Mettre en place Eutils.
 
 Tout d'abord, vous pouvez télécharger le CLI à l'aide de cette commande :
 
 ```sh
-npm i -g echo-os
+npm i -g eutils
 ```
 
 Allez ensuite voir dans vos documents. Oh ! Un nouveau dossier ! Dans ce dernier, vous pourrez stocker vos utilitaires.
@@ -26,11 +22,19 @@ echo-install <nom-de-l-utilitaire>
 
 > Vous pouvez mettre des virgules après le nom d'un utilitaire pour en télécharger plusieurs en même temps.
 
-Quant aux utilitaires créés par la communauté, il suffira de mettre les fichiers dans le dossier `.echo-utils` du dossier `Documents`.
+Quant aux utilitaires créés par la communauté, il suffira de mettre les fichiers dans le dossier `.eutils` à la racine du disque.
 
-- Windows : `C:\Users\<nom>\Documents\.echo-utils\`
+- Windows : `C:\.eutils\systems\`
 
-- Linux : `/home/<nom>/Documents/.echo-utils/`
+- Linux : `/.eutils/systems/`
+
+## Lancer des utilitaires
+
+Rien de plus simple, vous avez juste à taper cette commande :
+
+```sh
+echo-load <nom-de-l-utilitaire>
+```
 
 ## _Attention !_
 

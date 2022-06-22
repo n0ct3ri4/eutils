@@ -2,7 +2,7 @@
 
 /**
  * @author L'Ange Déchu <contact.nocteria@gmail.com>
- * @description Echo OS Systems installer.
+ * @description Eutils Systems installer.
  * @license GPL-3.0
  */
 
@@ -21,13 +21,13 @@ const https = require("node:https");
 const unzipper = require("unzipper");
 const args = process.argv;
 
-var utilsPath = path.join("\\.eos", "utils"); // path to utils
+var utilsPath = path.join("\\.eutils", "systems"); // path to utils
 var debug = false; // debug mode. setting this to `true` allows you to view extra logs
 
 // if path to utils doesn't exists
 if (!fs.existsSync(utilsPath)) {
   console.error(
-    new Error("(10) Installation invalide. Veuillez réinstaller Echo OS") // error 10
+    new Error("(10) Installation invalide. Veuillez réinstaller Echo Utils") // error 10
   );
   return process.exit(10);
 }
